@@ -50,9 +50,9 @@ public class Network {
         String baseUrl;
 
         if (BuildConfig.DEBUG) {
-            baseUrl = BuildConfig.LIVE_URL;
+            baseUrl = BuildConfig.BASE_URL;
         } else {
-            baseUrl = BuildConfig.LIVE_URL;
+            baseUrl = BuildConfig.BASE_URL;
         }
 
         mRetrofit = new Retrofit.Builder()
