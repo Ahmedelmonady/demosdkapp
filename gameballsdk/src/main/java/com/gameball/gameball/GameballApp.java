@@ -98,6 +98,8 @@ public class GameballApp
         {
             ourInstance = new GameballApp(context);
         }
+
+        Log.d("xxTAGZxx", "Instantiated");
         return ourInstance;
     }
 
